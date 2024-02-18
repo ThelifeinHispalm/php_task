@@ -1,4 +1,8 @@
+
 <?php
+
+// Given an array of integers nums and a target integer target, return the indices of two numbers in the array that add
+// up to the target. There can be only one valid answer.
 
 function twoSum($nums, $target) {
     $complements = array(); // Create an empty hashmap to store complements
