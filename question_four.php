@@ -1,5 +1,5 @@
 <?php
-
+// Given a string s, determine whether it is a palindrome (reads the same 
 function isPalindrome($s) {
     // Remove non-alphanumeric characters and convert to lowercase
     $s = preg_replace("/[^a-zA-Z0-9]/", "", strtolower($s));
