@@ -1,5 +1,6 @@
 <?php
-
+// Your task is to design a PHP function that takes a student's CGPA as input and returns a string containing both
+// the CGPA value and the corresponding letter grade based on the following criteria:  Excellent (A): CGPA >= 4.0  Very Good (B+): 3.5 <= CGPA < 4.0  Good (B): 3.0 <= CGPA < 3.5  Fair (C+): 2.5 <= CGPA < 3.0  Pass (C): 2.0 <= CGPA < 2.5  
 function calculateGrade($cgpa) {
     // Check the range of CGPA and assign the corresponding letter grade
     if ($cgpa >= 4.0) {
